@@ -131,8 +131,10 @@ The default logger is the simplest way to use Loggin'JS.
 ```js
 const loggin = require('loggin-js');
 
-loggin.debug('Check this log out!!', { foo: 'var' }, { channel: 'my-logger' });
+loggin.info('Check this log out! It has <%bdata>', { foo: 'var' }, { channel: 'my-logger' });
 ```
+Will output something similar to:  
+[![preview](./.github/previews/BasicExample1.png)](./.github/previews/BasicExample1.png)
 
 Additionaly you can create a custom logger:
 ```js

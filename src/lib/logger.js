@@ -324,7 +324,7 @@ Logger.DefaultOptions = {
   channel: path.basename(__filename),
   formatter: Formatter.get('detailed'),
   enabled: true,
-  color: false,
+  color: true,
 };
 
 module.exports = Logger;
